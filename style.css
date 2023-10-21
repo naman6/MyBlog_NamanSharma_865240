@@ -119,3 +119,15 @@ h2 {
     background-color: rgb(205, 205, 197);
     font-family:Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+}
